@@ -33,9 +33,16 @@ body {
     justify-content: center;
 }
 
+.button-digit {
+    display: flex;
+    flex-direction: row;
+}
+
 .button-digit ol {
     display: flex;
     flex-direction: column;
+    padding: 0%;
+    margin: 0%;
 }
 
 .button-digit li {
@@ -45,13 +52,10 @@ body {
 .button-operator ul {
     display: flex;
     flex-direction: column;
+    padding: 0%;
+    margin: 0%;
 }
 
 .button-operator li {
     display: inline;
-}
-
-.button-digit {
-    display: flex;
-    flex-direction: row;
 }
