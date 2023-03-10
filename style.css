@@ -1,0 +1,57 @@
+body {
+    display: flex;
+    flex-direction: column;
+    padding: 0px;
+    margin: 0px;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+}
+
+.calculator-card {
+    display: flex;
+    justify-content: center;
+}
+
+.calculator-display {
+    display: flex;
+    justify-content: center;
+}
+
+.calculator-interface {
+    display: flex;
+    flex-direction: column;
+    background-color: #26292a;
+    justify-content: center;
+}
+
+.calculator-buttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.button-digit ol {
+    display: flex;
+    flex-direction: column;
+}
+
+.button-digit li {
+    display: inline;
+}
+
+.button-operator ul {
+    display: flex;
+    flex-direction: column;
+}
+
+.button-operator li {
+    display: inline;
+}
+
+.button-digit {
+    display: flex;
+    flex-direction: row;
+}
