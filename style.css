@@ -33,19 +33,20 @@ body {
     justify-content: center;
 }
 
-.button-digit {
+.button-values {
     display: flex;
     flex-direction: row;
 }
 
-.button-digit ol {
+.button-values ol {
     display: flex;
     flex-direction: column;
+    justify-content: flex-end;
     padding: 0%;
     margin: 0%;
 }
 
-.button-digit li {
+.button-values li {
     display: inline;
 }
 
