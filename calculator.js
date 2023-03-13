@@ -1,50 +1,68 @@
+let calcDisplayContainer = document.querySelector('.calculator-display')
+let calcDisplayStr = ""
+
 function printOne() {
-    console.log("1");
+    calcDisplayStr = calcDisplayStr + "1"
+    calcDisplayContainer.textContent = calcDisplayStr
 }
 function printTwo() {
-    console.log("2");
+    calcDisplayStr = calcDisplayStr + "2"
+    calcDisplayContainer.textContent = calcDisplayStr
 }
 function printThree() {
-    console.log("3");
+    calcDisplayStr = calcDisplayStr + "3"
+    calcDisplayContainer.textContent = calcDisplayStr
 }
 function printFour() {
-    console.log("4");
+    calcDisplayStr = calcDisplayStr + "4"
+    calcDisplayContainer.textContent = calcDisplayStr
 }
 function printFive() {
-    console.log("5");
+    calcDisplayStr = calcDisplayStr + "5"
+    calcDisplayContainer.textContent = calcDisplayStr
 }
 function printSix() {
-    console.log("6");
+    calcDisplayStr = calcDisplayStr + "6"
+    calcDisplayContainer.textContent = calcDisplayStr
 }
 function printSeven() {
-    console.log("7");
+    calcDisplayStr = calcDisplayStr + "7"
+    calcDisplayContainer.textContent = calcDisplayStr
 }
 function printEight() {
-    console.log("8");
+    calcDisplayStr = calcDisplayStr + "8"
+    calcDisplayContainer.textContent = calcDisplayStr
 }
 function printNine() {
-    console.log("9");
+    calcDisplayStr = calcDisplayStr + "9"
+    calcDisplayContainer.textContent = calcDisplayStr
 }
 function printZero() {
-    console.log("0");
+    calcDisplayStr = calcDisplayStr + "0"
+    calcDisplayContainer.textContent = calcDisplayStr
 }
 function printAdd() {
-    console.log("+");
+    calcDisplayStr = calcDisplayStr + "+"
+    calcDisplayContainer.textContent = calcDisplayStr
 }
 function printSubtract () {
-    console.log("-");
+    calcDisplayStr = calcDisplayStr + "-"
+    calcDisplayContainer.textContent = calcDisplayStr
 }
 function printMultiply() {
-    console.log("+");
+    calcDisplayStr = calcDisplayStr + "x"
+    calcDisplayContainer.textContent = calcDisplayStr
 }
 function printDivide() {
-    console.log("/");
+    calcDisplayStr = calcDisplayStr + "/"
+    calcDisplayContainer.textContent = calcDisplayStr
 }
 function printEqual() {
     console.log("=");
 }
 function printDecimal() {
-    console.log(".");
+    calcDisplayStr = calcDisplayStr + "."
+    calcDisplayContainer.textContent = calcDisplayStr
 }
 
 
